@@ -1,0 +1,13 @@
+SIM Number Changer
+================
+
+App to change the number registered in SIM card. This uses Xposed framework (http://forum.xda-developers.com/showthread.php?t=1574401)
+
+After you have installed Xposed framework, install this app, open it, insert your number and click the button to change it. After that enable the mod inside Xposed Installer (you probably have a notification to do it, you can click it) and restart your phone, insert your PIN and it should be done, you can open the app to confirm.
+
+This was made for Samsung Galaxy S3 and tested on it. It may work on others phones, but I can't be sure. I don't held any responsability for any damage you do on your phone.
+
+Any kind of support (which will be minimal) and download is in XDA: http://forum.xda-developers.com/showthread.php?t=2106490
+
+
+NOTE: This app doesn't change your actual number, it just changes the number registered in your SIM card, many operators don't put number in there, but some apps (usually security ones) use the number registered there. In About section in Definitions it also appears the number registered in SIM.
