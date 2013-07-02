@@ -31,7 +31,7 @@ public class MainActivity extends Activity implements android.content.DialogInte
 		
 		setContentView(R.layout.activity_main);
 		
-		if(!phone.isEmpty() && !phone.trim().equals("")) {
+		if(phone != null && !phone.isEmpty() && !phone.trim().equals("")) {
 			TextView tv = (TextView) findViewById(R.id.actualNumber);
 			tv.setText(phone);
 			tv.setTypeface(null, Typeface.NORMAL);
